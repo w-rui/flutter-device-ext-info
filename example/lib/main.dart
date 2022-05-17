@@ -11,9 +11,9 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  String deviceName;
-  double screenSizeInches;
-  DeviceClassType deviceClass;
+  String? deviceName;
+  double? screenSizeInches;
+  DeviceClassType? deviceClass;
 
   @override
   void initState() {
